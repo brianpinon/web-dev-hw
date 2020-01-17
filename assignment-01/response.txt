@@ -1,0 +1,18 @@
+How is the web different than the internet?
+ The internet contains participants while the web supplies the information. The internet is what connects us to information, the web is the information itself.
+
+Briefly describe how the internet works.
+  The internet is a cable that servers are connected to. The servers are internet or other providers that give us access to the internet and its resources.
+  Servers and other internet accessing devices have an IP address that make it unique and accessable. For me to send a message to someone else, it has to reach
+  the internet cable or something attatched to it. So since my phone does not have a cable attached to it that connects directly, I have to connect through a
+  different way. My message is directed through a path of routers that guides my message to the internet cable that travels through more routhers that helps my
+  message reach the desired recipiant.
+  
+What is a directory, and what is its relationship to files?
+  A directory is like a big folder in which other folders can be stored. Its the file cabinet where files and projects are stored. This helps with the 
+  organization of files and being more easily accessible.
+    
+Why is using a VCS beneficial?
+  VCS is beneficial because it tracks project progress and updated versions to help adapt and improve programs. If an update is made that destroys code or doesn't work 
+  well, we can trace back to the previous version and restart from there. It makes it easy to see problems and create solutions. It also allows others to 
+  adapt previous versions of the code without directly affecting the newest version.
