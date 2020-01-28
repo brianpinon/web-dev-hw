@@ -1,0 +1,24 @@
+Brian Pinon
+
+6. The way data travels on the internet is similar to a delivery service.
+A request or order is made from a computer with an IP Address and the computer
+that has the information receives the request, and fulfills it if possible.
+The information knows where to go kind of like how Amazon navigates to your
+house once you place an order. It knows your address and there are many ways
+to get to the address, so routers are able to control web traffic to ensure
+the package gets to its destination in the quickest time.
+
+7. An IP Address is the computers address. A DNS address stands for Domain Name
+Service and refers to a hosting service provided by that IP Address. Domains
+use the alphabet instead of a chain of numbers to contact and find a website.
+A Domain is something you pay for so that people can find your information on
+the internet.
+
+8. Cookies help websites remember you so they can customize messages and the
+advertisements that show up. A website will assign you an ID so next time you
+visit their site, they know what you like. When you fill out information or
+make a certain search, the cite may remember it as a cookie, something you
+enjoy, so that next time you visit their cite, they show you a cookie, something
+you like.
+
+9. The three parts of a URL are the protocol, the domain name, and the path. 
