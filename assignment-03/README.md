@@ -2,4 +2,4 @@
 
 2. Markup is a language that focuses on the text content of a given page, like how it appears and is laid out.
 
-3. [My Screenshot](./screenshot.png)
+3. ![My Screenshot](./images/screenshot.png)
