@@ -1,0 +1,8 @@
+# Assignment 05
+## Brian Pinon
+
+1. To my knowledge, there is no limit to how many head or body elements that you can have on a page. Head elements control the thoughts of the page and are not seen in the main part of the site. The head helps the browser know how to read and process the information in the body. The body is where the meat and potatoes of the website belong. It is where everything is shown and used in the webpage and active to the viewer.
+
+2. Structural Markup determines the structure of the document or website. It helps organize content in skeletons and overall structure. Semantic Markup helps with the reading of the page and the information itself. Semantic helps with altering text and organizes the skin and appearance of the document.
+
+3. I really enjoyed this assignment and finally making a longer and more useful website. I am feeling more comfortable with editing and adding to the body elements. I understand what happens in the body but some of the head elements are a little confusing or hard to understand what they do or why they are necessary. I think this will come with more understanding, reading and practice. I think maybe seeing more examples of head elements used and what they do would be helpful. Some of the short hand or abbreviations make it seem more complex then it really is, so more exposure to that would help. One thing I realized was my link to the recipe website was broken. I looked at the code and realized I typed "https://" before I pasted the link which already had "https://" in it. So i deleted the one I typed and the link worked. Other than that, it was pretty simple and straight forward.
