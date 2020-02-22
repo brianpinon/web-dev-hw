@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+    content="width=device-width,
+    initial-scale=1.0">
+    <meta name="description"
+    content="this assignment 06
+    is about Forms">
+    <meta name="author"
+    content="Brian Pinon">
+    <title>Assignment 06</title>
+    <style>
+      table, td {
+        border: 1px solid black;
+        padding: 5px}
+    </style>
+  </head>
+
+  <body>
+    <h1>Black Coffee Roasting Co</h1>
+      <address>
+        525 E Spruce St, <br>
+        Missoula, MT 59802 <br>
+        (406) 541-3700
+      </address>
+    <br>
+      <a href="mailto:brian.pinon@umconnect.umt.edu">Email Us</a>
+    <br><br>
+      <table>
+        <th scope="col">Hours of Operation</th>
+        <tr>
+          <td>Monday</td>
+          <td>6:30AM - 5:30PM</td>
+        </tr>
+
+        <tr>
+          <td>Tuesday</td>
+          <td>6:30AM - 5:30PM</td>
+        </tr>
+
+        <tr>
+          <td>Wednesday</td>
+          <td>6:30AM - 5:30PM</td>
+        </tr>
+
+        <tr>
+          <td>Thursday</td>
+          <td>6:30AM - 5:30PM</td>
+        </tr>
+
+        <tr>
+          <td>Friday</td>
+          <td>6:30AM - 5:30PM</td>
+        </tr>
+      </table>
+      <br>
+    <form action="https://example.com/registration.php"
+    method="post">
+
+      <p>
+        What is your favorite coffee beverage:
+        <input type="text" name="beverage" maxlength="15"
+        autofocus>
+      </p>
+
+      <p>How many cups of coffee do you drink a day:</p>
+        <input type="radio" name="cups" value="0"/> 0
+          &nbsp; <!-- adding space -->
+        <input type="radio" name="cups" value="1" checked/> 1
+          &nbsp; <!-- adding space -->
+        <input type="radio" name="cups" value="2"/> 2
+          &nbsp; <!-- adding space -->
+        <input type="radio" name="cups" value="3"/> 3
+          &nbsp; <!-- adding space -->
+        <input type="radio" name="cups" value="4+"/> 4+
+          <br><br>
+
+      Enter your comments below:
+      <br>
+        <textarea cols="35" rows="10"
+        placeholder="Enter up to 500 characters..."
+        maxlength="500">
+        </textarea>
+
+    <br><br>
+
+    <button>
+      <img src="./images/smiley-face.png"
+      width="20" height="20" />
+        Submit
+    </button>
+  </form>
+
+  </body>
+  
+</html>
