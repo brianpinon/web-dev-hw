@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+    content="width=device-width,
+    initial-scale=1.0">
+    <meta name="description"
+    content="this assignment 08
+    is about HTML Website">
+    <meta name="author"
+    content="Brian Pinon">
+    <title>Contact</title>
+
+    <style>
+      body {
+        background-color: lightskyblue;
+        text-align: left;
+      }
+      nav {
+        background-color: white;
+        text-align: center;
+        padding: 10px;
+      }
+      a {
+        color: black;
+        padding: 10px;
+      }
+      h1 {
+        text-align: center;
+      }
+      .info {
+        padding-left: 20px;
+        text-align: left;
+        color: black;
+        font-family: Helvetica Neue;
+      }
+      table, td {
+        background-color: white;
+        padding: 5px
+      }
+    </style>
+
+  <body>
+    <nav>
+      <a href="./index.html">Home</a> &nbsp;
+      <a href="./about.html">About</a> &nbsp;
+      <a href="./contact.html">Contact</a> &nbsp;
+    </nav>
+
+    <h1>Contact</h1>
+
+    <table align="right">
+      <th scope="col">Reach At:</th>
+      <tr>
+        <td>Email</td>
+        <td>brianpinon369@gmail.com</td>
+      </tr>
+
+      <tr>
+        <td>Phone</td>
+        <td>(253)752-7173</td>
+      </tr>
+    </table>
+
+    <div class="info">
+      <form action="https://example.com/registration.php"
+      method="post">
+
+        <p>
+          What other instructables would you like to see?
+          <br>
+          <input type="text" name="beverage" maxlength="50"
+          autofocus>
+        </p>
+
+        <br>
+
+        <p>How would you describe this site:</p>
+          <input type="radio" name="feedback" value="Very Helpful" checked/> Very Helpful
+            &nbsp; <!-- adding space -->
+          <input type="radio" name="feedback" value="Interesting"/> Interesting
+            &nbsp; <!-- adding space -->
+          <input type="radio" name="feedback" value="Not Very Descriptive"/> Not Very Descriptive
+            &nbsp; <!-- adding space -->
+          <input type="radio" name="feedback" value="Too Simple"/> Too Simple
+            &nbsp; <!-- adding space -->
+            <br><br><br><br>
+
+      How could this be improved:
+      <br>
+        <textarea cols="35" rows="10"
+        placeholder="Enter up to 500 characters..."
+        maxlength="500">
+        </textarea>
+
+        <br><br>
+
+        <input type="submit">
+        </form>
+    </div>
+  </body>
+
+</html>
