@@ -1,0 +1,68 @@
+body {
+  background-color: #e8d5eb;
+}
+
+h1 {
+  font-family: futura;
+  font-size: 50px;
+  color: #509af1;
+}
+
+h2 {
+  font-family: futura;
+  background-color: #5c0087;
+  color: #ffed00;
+}
+
+/* box for color palette*/
+.square {
+  width: 500px;
+  height: 400px;
+  background-color: white;
+}
+
+img {
+  width: 75%;
+}
+
+.color {
+   width: 480px;
+   height: 370px;
+   position: absolute;
+   Left: 30px;
+}
+.red {
+   background-color: #e83f2e;
+   width: 120px;
+   height: 340px;
+   position: absolute;
+   left: 200px;
+   bottom: 0;
+}
+.yellow {
+   background-color: #e9b144;
+   width: 120px;
+   height: 340px;
+   position: absolute;
+   left: 290px;
+   bottom: 0;
+   opacity: 0.8;
+}
+.purple {
+   background-color: #312e59;
+   width: 120px;
+   height: 340px;
+   position: absolute;
+   left: 380px;
+   bottom: 0;
+   opacity: 0.8;
+}
+.green {
+   background-color: #1d673f;
+   width: 120px;
+   height: 340px;
+   position: absolute;
+   left: 470px;
+   bottom: 0;
+   opacity: 0.8;
+}
