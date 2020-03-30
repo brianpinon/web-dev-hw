@@ -12,6 +12,7 @@ h2 {
   font-family: futura;
   background-color: #5c0087;
   color: #ffed00;
+  padding-left: 15px;
 }
 
 /* box for color palette*/
@@ -36,7 +37,7 @@ img {
    width: 120px;
    height: 340px;
    position: absolute;
-   left: 200px;
+   left: 30px;
    bottom: 0;
 }
 .yellow {
@@ -44,7 +45,7 @@ img {
    width: 120px;
    height: 340px;
    position: absolute;
-   left: 290px;
+   left: 120px;
    bottom: 0;
    opacity: 0.8;
 }
@@ -53,7 +54,7 @@ img {
    width: 120px;
    height: 340px;
    position: absolute;
-   left: 380px;
+   left: 210px;
    bottom: 0;
    opacity: 0.8;
 }
@@ -62,7 +63,7 @@ img {
    width: 120px;
    height: 340px;
    position: absolute;
-   left: 470px;
+   left: 300px;
    bottom: 0;
    opacity: 0.8;
 }
