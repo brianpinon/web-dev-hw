@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+body {
+  background-color: grey;
+  background-image: url('../images/cork-board.jpg');
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+h1, span {
+  margin: 0;
+  font-family: 'Roboto Slab', Georgia, serif;
+  color: black;
+  text-align: center;
+}
+h3 {
+  font-family: 'Roboto Slab', Georgia, serif;
+  font-size: 1em;
+}
+q {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 2em;
+}
+a {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 2em;
+}
+a {
+  font-family: 'Roboto', Arial, sans-serif;
+  text-decoration: none;
+  color:inherit;
+}
+* {
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #000;
+}
+
+img {
+  width:80%;
+  padding-top: 1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-container {
+  width: 60%;
+  max-width: 700px;
+  margin: 3em auto;
+  padding: 3em;
+
+  background-color: white;
+}
+
+main {
+  text-align: justify;
+  margin: 3em 0;
+}
+
+footer {
+  text-align: center;
+  font-size: .75em;
+  margin-top: 3em;
+}
+
+.site-heading {
+  width: 50%;
+  margin: 4em auto;
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+
+  border: 5px double lightblue;
+
+  text-align: center;
+}
+#site-title {
+  margin: .5em;
+  line-height: 1em;
+  font-size: 3em;
+}
+#site-slogan {
+  font-size: 1em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: lightblue;
+}
