@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+    content="width=device-width,
+    initial-scale=1.0">
+    <meta name="description"
+    content="Personal Website">
+    <meta name="author"
+    content="Brian Pinon">
+    <title>Assignment 13</title>
+    <link rel="stylesheet" type="text/css" href="./css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="./css/menu.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+  </head>
+
+  <body>
+    <div class="main-container">
+      <header>
+        <menu id="navigation">
+          <div id="site-links">
+            <a href="./index.html" class="menu-item">Home</a>
+            <a href="./work.html" class="menu-item">Work</a>
+
+            <div class="dropdown">
+              <a href="#" class="menu-item" id="dropdown-group">More...</a>
+              <div class="dropdown-content">
+                <a href="./about.html" class="dropdown-item">About</a>
+                <a href="./contact.html" class="dropdown-item">Contact</a>
+                <a href="./located.html" class="dropdown-item">Located</a>
+              </div>
+            </div>
+          </div>
+
+        </menu>
+
+        <div class="info">
+          <form action="https://example.com/contact.php"
+          method="post">
+
+            <p>
+              Describe your project or idea:
+              <br>
+              <input type="text" name="beverage" maxlength="200"
+              autofocus>
+            </p>
+
+            <br>
+
+            <p>What is the best way to reach you?</p>
+              <input type="radio" name="feedback" value="Text" checked/> Text
+                &nbsp; <!-- adding space -->
+              <input type="radio" name="feedback" value="Call"/> Call
+                &nbsp; <!-- adding space -->
+              <input type="radio" name="feedback" value="Email"/> Email
+                &nbsp; <!-- adding space -->
+                <br><br><br><br>
+
+          Enter Phone Number/Email:
+          <br>
+            <textarea cols="35" rows="1" maxlength="30">
+            </textarea>
+
+            <br>
+
+            <p><i>Let's make it happen!</i></p>
+
+            <input type="submit">
+            </form>
+        </div>
+  </body>
+</html>

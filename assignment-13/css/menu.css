@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+menu {
+  margin: 0;
+  padding: 0;
+  background-color: #371969;
+}
+
+#site-links {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+#site-links .menu-item {
+  width: 6em;
+  padding: .5em;
+  display: inline-block;
+
+  background-color: #371969;
+
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+#site-links .menu-item:hover {
+  background-color: rgb(105, 157, 40);
+  color: #6b47a8;
+}
+
+#site-links .dropdown {
+  display: inline-block;
+  width: 6em;
+}
+
+#site-links .dropdown-content {
+  display: none;
+  position: absolute;
+
+  background-color: #6b47a8;
+  z-index: 5;
+}
+
+#site-links .dropdown-content a {
+  color: white;
+  font-family: 'Roboto', Georgia, serif;
+}
+
+#site-links .dropdown-content a:hover {
+  color: #6b47a8;
+  font-weight: 900;
+}
+
+#site-links .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#site-links .dropdown-item {
+  min-width: 6em;
+  padding: .5em 1em;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-item:hover {
+  background-color: #371969;
+}
